@@ -1,0 +1,22 @@
+.ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  & > li {
+    list-style: none;
+    margin: 20px;
+    & > a {
+      text-decoration: none;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 127.47%;
+      /* or 20px */
+
+      letter-spacing: -0.5px;
+
+      color: #000000;
+    }
+  }
+}

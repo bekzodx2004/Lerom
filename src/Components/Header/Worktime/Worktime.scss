@@ -1,0 +1,60 @@
+.work {
+    
+    margin: 20px;
+    & > h3 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 127.47%;
+      /* identical to box height, or 18px */
+
+      text-align: right;
+      letter-spacing: -0.5px;
+
+      color: #000000;
+      margin-bottom: 9px;
+      & > i {
+        margin-right: 10px;
+        color: #004583;
+      }
+    }
+    & > a {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 127.47%;
+      /* or 20px */
+
+      letter-spacing: -0.5px;
+      text-decoration-line: underline;
+
+      color: #004583;
+      & > i {
+        margin-right: 10px;
+        color: #004583;
+      }
+    }
+    & > h4 {
+      margin-bottom: 12px;
+      text-align: right;
+      & > font {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 127.47%;
+        /* identical to box height, or 18px */
+
+        text-align: right;
+        letter-spacing: -0.5px;
+
+        color: #bb2822;
+      }
+      & > i {
+        margin-right: 10px;
+        margin-left: 10px;
+      }
+    }
+  }

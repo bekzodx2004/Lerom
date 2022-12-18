@@ -1,0 +1,67 @@
+.carousel {
+    position: relative;
+    & > .alice-carousel {
+        
+      z-index: 0;
+      width: 100%;
+      position: relative;
+      & > .alice-carousel__dots {
+        display: none;
+      }
+      & > .alice-carousel__next-btn {
+        position: absolute;
+        top: calc(50% - 25px);
+        right: 24px;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        height: 55px;
+        width: 55px;
+        text-align: center;
+        & > .alice-carousel__next-btn-wrapper {
+          & > p {
+            & > span {
+              color: #fff;
+              font-size: 30px;
+              line-height: 22px;
+            }
+          }
+        }
+      }
+      & > .alice-carousel__prev-btn {
+        position: absolute;
+        top: calc(50% - 25px);
+        border: 1px solid #fff;
+        border-radius: 50%;
+        left: 24px;
+        width: 55px;
+        height: 55px;
+        text-align: center;
+        & > .alice-carousel__prev-btn-wrapper {
+          & > p {
+            & > span {
+              color: #fff;
+              font-size: 30px;
+              line-height: 22px;
+            }
+          }
+        }
+      }
+    }
+    & > .cart {
+      width: 97px;
+      height: 87px;
+      border-top-left-radius: 50%;
+      border-bottom-left-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      top: 60px;
+      border: 1px solid #ffffff;
+      border-right: none;
+      right: 0;
+      z-index: 2;
+      background-color: #004583;
+      box-shadow: 0 4px 38px #004583;
+    }
+  }

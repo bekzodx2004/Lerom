@@ -1,0 +1,202 @@
+.footer {
+  padding-bottom: 10px;
+  & > .footer__top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+
+    & > p {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 127.47%;
+      /* or 20px */
+      text-align: center;
+
+      letter-spacing: -0.5px;
+
+      color: #bebebe;
+      margin: 10px;
+    }
+
+    & > img {
+      margin: 20px;
+    }
+
+    & > div {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      align-items: center;
+      margin: 10px;
+
+      & > p {
+        margin: 10px 5px;
+       
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+
+        letter-spacing: -0.5px;
+
+        color: #bebebe;
+      }
+    }
+  }
+  & > .footer__links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-top: 1px solid #e7e6e6;
+    border-bottom: 1px solid #e7e6e6;
+
+    padding-top: 17px;
+    padding-bottom: 14px;
+    & > .footer__links__link {
+      margin: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      & > h3 {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 216.97%;
+        /* or 35px */
+
+        letter-spacing: -0.5px;
+
+        color: #071828;
+      }
+      & > a {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        /* or 125% */
+
+        letter-spacing: -0.5px;
+
+        color: #656d75;
+        text-decoration: none;
+        margin-top: 10px;
+      }
+      & > a:hover {
+        text-decoration: underline;
+      }
+    }
+
+    & > .lll {
+      margin: 10px;
+      max-width: 212px;
+      width: 100%;
+      & > :last-child {
+        border: none;
+      }
+      & > a {
+        width: 100%;
+        padding: 9px;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 216.97%;
+        /* identical to box height, or 35px */
+
+        text-align: center;
+        letter-spacing: -0.5px;
+
+        color: #004583;
+        text-decoration: none;
+        border-bottom: 1px solid #e7e6e6;
+        display: block;
+      }
+    }
+
+    & > .stat1 {
+      align-self: center;
+      margin: 20px;
+      width: 88px;
+      background-color: #acbcdc;
+      height: 31px;
+      border: 1px solid #000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 5px;
+      & > i {
+        transform: rotate(45deg);
+      }
+      & > div {
+        & > h3 {
+          text-align: right;
+          font-size: 10px;
+        }
+      }
+    }
+    & > .stat2 {
+      margin: 20px;
+      align-self: center;
+      background-color: #daf0ff;
+      display: flex;
+      justify-content: space-between;
+      padding-right: 5px;
+      align-items: center;
+      width: 88px;
+      overflow: hidden;
+      height: 43px;
+      & > :nth-child(1) {
+        margin-left: -19px;
+        position: relative;
+        background-color: #666666;
+        transform: rotate(45deg);
+        height: 43px;
+        width: 43px;
+        text-align: center;
+        padding-left: -5px;
+
+        & > i {
+          transform: rotate(-45deg);
+          position: absolute;
+          top: 7px;
+          right: 10px;
+          color: #fff;
+        }
+      }
+      & > div {
+        & > h4 {
+          font-size: 10px;
+          text-align: right;
+          & > i {
+            margin-left: 2px;
+            width: 10px;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+
+  & > .footer__bottom {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 127.47%;
+    /* or 20px */
+
+    text-align: center;
+    letter-spacing: -0.5px;
+
+    color: #bebebe;
+    padding-top: 22px;
+    padding-bottom: 20px;
+    margin: 5px;
+  }
+}

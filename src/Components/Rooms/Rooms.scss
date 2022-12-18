@@ -1,0 +1,25 @@
+.rooms {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+  & > :nth-child(3),
+  :nth-child(4) {
+    flex-direction: row-reverse;
+    & > div {
+      & > i {
+        transform: rotate(180deg);
+      }
+    }
+  }
+
+  & > :last-child {
+    max-width: 1440px;
+    justify-content: start;
+    & > img {
+      max-width: 900px;
+      width: 100%;
+      display: block;
+    }
+  }
+}

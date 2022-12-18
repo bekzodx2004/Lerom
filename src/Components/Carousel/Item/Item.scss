@@ -1,0 +1,105 @@
+.item {
+  background: url(../../images/carousel.png) no-repeat center center / cover;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  padding-left: 18%;
+  & > h1 {
+    font-family: "inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 127.47%;
+    /* or 48px */
+
+    letter-spacing: -0.5px;
+    text-transform: uppercase;
+
+    color: #ffffff;
+    max-width: 412px;
+    width: 100%;
+  }
+  & > h4 {
+    font-family: "Inter";
+    margin-top: 22px;
+    max-width: 457px;
+    width: 100%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 127.47%;
+    /* or 23px */
+
+    letter-spacing: -0.5px;
+
+    color: #ffffff;
+  }
+  & > p {
+    font-family: "Inter";
+    margin-top: 22px;
+    max-width: 457px;
+    width: 100%;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 127.47%;
+    /* or 23px */
+
+    letter-spacing: -0.5px;
+
+    color: #ffffff;
+  }
+  & > div {
+    max-width: 660px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+    & > div {
+      display: flex;
+      align-items: flex-start;
+      justify-content: baseline;
+      width: 280px;
+      margin: 18px;
+      margin-left: 0;
+      & > i {
+        font-size: 20px;
+        padding: 15px;
+        background-color: #fff;
+        border-radius: 50%;
+        margin-right: 10px;
+        color: #004583;
+      }
+      & > div {
+        & > h3 {
+          font-family: "inter";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 21px;
+          line-height: 127.47%;
+          /* identical to box height, or 27px */
+
+          letter-spacing: -0.5px;
+          text-transform: uppercase;
+
+          color: #ffffff;
+          & > font {
+            font-size: 12px;
+          }
+        }
+
+        & > p {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 127.47%;
+          /* or 15px */
+
+          letter-spacing: -0.5px;
+
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}

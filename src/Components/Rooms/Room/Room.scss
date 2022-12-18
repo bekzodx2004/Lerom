@@ -1,0 +1,86 @@
+.room {
+  max-width: 720px;
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  overflow: hidden;
+
+  & > img {
+    max-width: 360px;
+    width: 50%;
+  }
+
+  & > div {
+    max-width: 360px;
+    width: 95%;
+    box-sizing: border-box;
+    padding: 45px 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    & > a {
+      & > .fa-arrow-left {
+        border: 1px solid #004583;
+        color: #004583;
+        border-radius: 50%;
+        width: 55px;
+        height: 55px;
+        text-align: center;
+        line-height: 55px;
+      }
+    }
+
+    & > h2 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 127.47%;
+      /* identical to box height, or 31px */
+
+      letter-spacing: -0.5px;
+      text-transform: uppercase;
+
+      color: #071828;
+    }
+    & > p {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 127.47%;
+      /* or 20px */
+
+      letter-spacing: -0.5px;
+
+      color: #071828;
+    }
+    & > h3 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 127.47%;
+      /* or 20px */
+
+      letter-spacing: -0.5px;
+
+      color: #004583;
+    }
+    & > h4 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 127.47%;
+      /* or 20px */
+
+      letter-spacing: -0.5px;
+
+      color: #071828;
+    }
+  }
+}
