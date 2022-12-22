@@ -1,0 +1,64 @@
+.katalog {
+  & > .body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 170px;
+    & > .left {
+      width: 268px;
+      margin: 20px;
+
+      & > .dropdowns {
+        background: #ffffff;
+        border: 1px solid #efefef;
+        box-shadow: 0px 10px 52px -8px rgba(0, 0, 0, 0.17);
+        border-radius: 8px;
+        & > .dropdown {
+          padding: 15px 24px;
+          cursor: pointer;
+          & > h3 {
+            display: flex;
+            justify-content: space-between;
+          }
+          & > .mahsulotlar {
+            margin-top: 15px;
+            display: none;
+            & > .mahsulot {
+              display: block;
+              margin-left: 15px;
+              text-decoration: none;
+              font-family: "Inter";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 14px;
+              line-height: 165.97%;
+              /* or 23px */
+
+              letter-spacing: -0.5px;
+
+              color: #004583;
+            }
+          }
+        }
+      }
+      & > a {
+        width: 268px;
+        height: 51px;
+        line-height: 51px;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+
+        background: #004583;
+        border-radius: 2px;
+        margin-top: 12px;
+        color: #ffffff;
+      }
+    }
+    & > .content {
+      & > :nth-child(2) {
+        flex-direction: row-reverse;
+      }
+    }
+  }
+}

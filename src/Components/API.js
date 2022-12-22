@@ -1,3 +1,6 @@
+import Home from "./Home/Home";
+import Katalog from "./Katalog/Katalog";
+
 import I1 from "./images/r1.png";
 import I2 from "./images/r2.png";
 import I3 from "./images/r3.png";
@@ -9,7 +12,31 @@ import I7 from "./images/r7.png";
 import I8 from "./images/r8.png";
 import I9 from "./images/r9.png";
 
-export let ul = [
+import K1 from "./images/kolleksiya1.png";
+import K2 from "./images/kolleksiya2.png";
+import K3 from "./images/kolleksiya3.png";
+
+export const routes = [
+  {
+    id: Math.random() * 1000,
+    route: "/",
+    path: "/",
+    element: <Home />,
+  },
+  {
+    id: Math.random() * 1000,
+    route: "/cart",
+    path: "/cart",
+    element: <Home />,
+  },
+  {
+    id: Math.random() * 1000,
+    route: "/katalog",
+    path: "/katalog",
+    element: <Katalog />,
+  },
+];
+export const ul = [
   {
     id: Math.random() * 1000,
     text: "О нас",
@@ -31,7 +58,7 @@ export let ul = [
     path: "https://t.me/bekzodx2004",
   },
 ];
-export let rooms = [
+export const rooms = [
   {
     id: Math.random() * 1000,
     img: I1,
@@ -73,7 +100,7 @@ export let rooms = [
     price: "42.000",
   },
 ];
-export let links = [
+export const links = [
   {
     id: Math.random() * 1000,
     h: "О компании",
@@ -119,7 +146,7 @@ export let links = [
   },
 ];
 
-export let footer3 = [
+export const footer3 = [
   {
     id: Math.random() * 1000,
     text: "Рассрочка",
@@ -137,13 +164,13 @@ export let footer3 = [
   },
 ];
 
-export let stat1 = [
+export const stat1 = [
   { id: Math.random() * 1000, count: 21845 },
   { id: Math.random() * 1000, count: 2435 },
   { id: Math.random() * 1000, count: 478 },
 ];
 
-export let novosti = [
+export const novosti = [
   {
     id: Math.random() * 1000,
     header: "Информация",
@@ -183,6 +210,292 @@ export let novosti = [
         img: I9,
         h1: "Какой шкаф выбрать в 2022 году",
         p: "Мини текст описания новости и ее актуальности",
+      },
+    ],
+  },
+];
+
+export const katalog = [
+  {
+    id: Math.random() * 1000,
+    tur: "Новинки",
+    modellar: [
+      {
+        id: Math.random() * 1000,
+        model: " Мелисса 2021",
+      },
+      {
+        id: Math.random() * 1000,
+        model: "Карина",
+      },
+      {
+        id: Math.random() * 1000,
+        model: "Камелия 2021",
+      },
+    ],
+  },
+  {
+    id: Math.random() * 1000,
+    tur: "Гостинные",
+    modellar: [
+      {
+        id: Math.random() * 1000,
+        model: " Мелисса 2021",
+      },
+      {
+        id: Math.random() * 1000,
+        model: "Карина",
+      },
+      {
+        id: Math.random() * 1000,
+        model: "Камелия 2021",
+      },
+    ],
+  },
+  {
+    id: Math.random() * 1000,
+    tur: "Прихожие",
+    modellar: [
+      {
+        id: Math.random() * 1000,
+        model: " Мелисса 2021",
+      },
+      {
+        id: Math.random() * 1000,
+        model: "Карина",
+      },
+      {
+        id: Math.random() * 1000,
+        model: "Камелия 2021",
+      },
+    ],
+  },
+  {
+    id: Math.random() * 1000,
+    tur: "Спальни",
+    modellar: [
+      {
+        id: Math.random() * 1000,
+        model: " Мелисса 2021",
+      },
+      {
+        id: Math.random() * 1000,
+        model: "Карина",
+      },
+      {
+        id: Math.random() * 1000,
+        model: "Камелия 2021",
+      },
+    ],
+  },
+  {
+    id: Math.random() * 1000,
+    tur: "Детские",
+    modellar: [
+      {
+        id: Math.random() * 1000,
+        model: " Мелисса 2021",
+      },
+      {
+        id: Math.random() * 1000,
+        model: "Карина",
+      },
+      {
+        id: Math.random() * 1000,
+        model: "Камелия 2021",
+      },
+    ],
+  },
+  {
+    id: Math.random() * 1000,
+    tur: "Кровати",
+    modellar: [
+      {
+        id: Math.random() * 1000,
+        model: " Мелисса 2021",
+      },
+      {
+        id: Math.random() * 1000,
+        model: "Карина",
+      },
+      {
+        id: Math.random() * 1000,
+        model: "Камелия 2021",
+      },
+    ],
+  },
+  {
+    id: Math.random() * 1000,
+    tur: "Матрасы",
+    modellar: [
+      {
+        id: Math.random() * 1000,
+        model: " Мелисса 2021",
+      },
+      {
+        id: Math.random() * 1000,
+        model: "Карина",
+      },
+      {
+        id: Math.random() * 1000,
+        model: "Камелия 2021",
+      },
+    ],
+  },
+];
+
+export const collections = [
+  {
+    id: Math.random() * 1000,
+    collectionName: "Мелисса 2021",
+    collectionAbout:
+      "Мини текст описания и преимуществапокупки данного направления.",
+    img: K1,
+
+    collectionItems: [
+      {
+        id: Math.random() * 1000,
+        collectionItemName: " Мелисса композиция 1",
+        razmer: "в 1462    ш 360     г 352",
+        V: " 12м",
+        price: "59 658 ₽ ",
+      },
+      {
+        id: Math.random() * 1000,
+        collectionItemName: " Мелисса композиция 1",
+        razmer: "в 1462    ш 360     г 352",
+        V: " 12м",
+        price: "59 658 ₽ ",
+      },
+      {
+        id: Math.random() * 1000,
+        collectionItemName: " Мелисса композиция 1",
+        razmer: "в 1462    ш 360     г 352",
+        V: " 12м",
+        price: "59 658 ₽ ",
+      },
+      {
+        id: Math.random() * 1000,
+        collectionItemName: " Мелисса композиция 1",
+        razmer: "в 1462    ш 360     г 352",
+        V: " 12м",
+        price: "59 658 ₽ ",
+      },
+      {
+        id: Math.random() * 1000,
+        collectionItemName: " Мелисса композиция 1",
+        razmer: "в 1462    ш 360     г 352",
+        V: " 12м",
+        price: "59 658 ₽ ",
+      },
+      {
+        id: Math.random() * 1000,
+        collectionItemName: " Мелисса композиция 1",
+        razmer: "в 1462    ш 360     г 352",
+        V: " 12м",
+        price: "59 658 ₽ ",
+      },
+    ],
+  },
+  {
+    id: Math.random() * 1000,
+    collectionName: "Карина",
+    collectionAbout:
+      "Мини текст описания и преимущества покупки данного направления.",
+    img: K2,
+    collectionItems: [
+      {
+        id: Math.random() * 1000,
+        collectionItemName: " Мелисса композиция 1",
+        razmer: "в 1462    ш 360     г 352",
+        V: " 12м",
+        price: "59 658 ₽ ",
+      },
+      {
+        id: Math.random() * 1000,
+        collectionItemName: " Мелисса композиция 1",
+        razmer: "в 1462    ш 360     г 352",
+        V: " 12м",
+        price: "59 658 ₽ ",
+      },
+      {
+        id: Math.random() * 1000,
+        collectionItemName: " Мелисса композиция 1",
+        razmer: "в 1462    ш 360     г 352",
+        V: " 12м",
+        price: "59 658 ₽ ",
+      },
+      {
+        id: Math.random() * 1000,
+        collectionItemName: " Мелисса композиция 1",
+        razmer: "в 1462    ш 360     г 352",
+        V: " 12м",
+        price: "59 658 ₽ ",
+      },
+      {
+        id: Math.random() * 1000,
+        collectionItemName: " Мелисса композиция 1",
+        razmer: "в 1462    ш 360     г 352",
+        V: " 12м",
+        price: "59 658 ₽ ",
+      },
+      {
+        id: Math.random() * 1000,
+        collectionItemName: " Мелисса композиция 1",
+        razmer: "в 1462    ш 360     г 352",
+        V: " 12м",
+        price: "59 658 ₽ ",
+      },
+    ],
+  },
+  {
+    id: Math.random() * 1000,
+    collectionName: "Спальни",
+    collectionAbout:
+      "Мини текст описания и преимущества покупки данного направления.",
+    img: K3,
+    collectionItems: [
+      {
+        id: Math.random() * 1000,
+        collectionItemName: " Мелисса композиция 1",
+        razmer: "в 1462    ш 360     г 352",
+        V: " 12м",
+        price: "59 658 ₽ ",
+      },
+      {
+        id: Math.random() * 1000,
+        collectionItemName: " Мелисса композиция 1",
+        razmer: "в 1462    ш 360     г 352",
+        V: " 12м",
+        price: "59 658 ₽ ",
+      },
+      {
+        id: Math.random() * 1000,
+        collectionItemName: " Мелисса композиция 1",
+        razmer: "в 1462    ш 360     г 352",
+        V: " 12м",
+        price: "59 658 ₽ ",
+      },
+      {
+        id: Math.random() * 1000,
+        collectionItemName: " Мелисса композиция 1",
+        razmer: "в 1462    ш 360     г 352",
+        V: " 12м",
+        price: "59 658 ₽ ",
+      },
+      {
+        id: Math.random() * 1000,
+        collectionItemName: " Мелисса композиция 1",
+        razmer: "в 1462    ш 360     г 352",
+        V: " 12м",
+        price: "59 658 ₽ ",
+      },
+      {
+        id: Math.random() * 1000,
+        collectionItemName: " Мелисса композиция 1",
+        razmer: "в 1462    ш 360     г 352",
+        V: " 12м",
+        price: "59 658 ₽ ",
       },
     ],
   },

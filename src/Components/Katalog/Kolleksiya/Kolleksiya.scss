@@ -1,0 +1,67 @@
+.kolleksiya {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+  & > img {
+    max-width: 456px;
+    width: 100%;
+  }
+  & > div {
+    max-width: 456px;
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+
+    & > h2 {
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 127.47%;
+      /* identical to box height, or 31px */
+
+      letter-spacing: -0.5px;
+      text-transform: uppercase;
+
+      color: #071828;
+    }
+    & > p {
+      margin-top: 7px;
+
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 127.47%;
+      /* or 20px */
+
+      letter-spacing: -0.5px;
+
+      color: #071828;
+    }
+
+    & > .button {
+      margin-top: 100px;
+      border: none;
+      background-color: transparent;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 127.47%;
+      /* or 15px */
+
+      letter-spacing: -0.5px;
+
+      color: #004583;
+
+      & > i {
+        margin: 9px;
+        color: #004583;
+        font-size: 16px;
+        border: 1px solid #004583;
+        padding: 15px;
+        border-radius: 50%;
+      }
+    }
+  }
+}

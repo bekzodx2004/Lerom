@@ -3,7 +3,7 @@ import "./Tel.scss";
 
 const Tel = () => {
   return (
-    <div className="tel">
+    <div className="tel  animate__animated animate__fadeInRight animate__delay-1s">
       <h4>
         Отдел продаж: <i className="fa-solid fa-phone"></i> 8 (495) 664-54-57{" "}
         <br />8 (929) 928-86-35

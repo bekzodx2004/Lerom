@@ -7,8 +7,10 @@
   :nth-child(4) {
     flex-direction: row-reverse;
     & > div {
-      & > i {
-        transform: rotate(180deg);
+      & > a {
+        & > i {
+          transform: rotate(180deg);
+        }
       }
     }
   }

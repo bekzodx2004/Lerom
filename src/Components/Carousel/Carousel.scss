@@ -47,21 +47,5 @@
         }
       }
     }
-    & > .cart {
-      width: 97px;
-      height: 87px;
-      border-top-left-radius: 50%;
-      border-bottom-left-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      position: absolute;
-      top: 60px;
-      border: 1px solid #ffffff;
-      border-right: none;
-      right: 0;
-      z-index: 2;
-      background-color: #004583;
-      box-shadow: 0 4px 38px #004583;
-    }
+
   }

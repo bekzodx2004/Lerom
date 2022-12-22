@@ -2,7 +2,7 @@ import React from 'react'
 import './Worktime.scss'
 const Worktime = () => {
   return (
-    <div className="work">
+    <div className="work  animate__animated animate__fadeInLeft animate__delay-1s">
     <h3>
       <i className="fa-solid fa-clock"></i>
       Пн-Пт с 10:00 до 20:00 <br />

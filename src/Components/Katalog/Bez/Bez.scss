@@ -1,0 +1,45 @@
+.bez {
+  width: 268px;
+  height: 380px;
+  background: linear-gradient(
+      186.23deg,
+      rgba(0, 69, 131, 0.7) 17.2%,
+      rgba(0, 69, 131, 0.7) 46.29%,
+      rgba(0, 0, 0, 0) 80.9%
+    ),
+    url(../../images/bez.png) no-repeat center center / cover;
+  margin-top: 37px;
+  overflow: hidden;
+  & > h3 {
+    margin-top: 40px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 127.47%;
+    text-align: center;
+    letter-spacing: -0.5px;
+    text-transform: uppercase;
+    color: #ffffff;
+    & > font {
+      display: block;
+      font-size: 78px;
+      margin-top: 10px;
+    }
+  }
+  & > a {
+    width: 194px;
+    padding: 11px 0px;
+    background: #fff;
+    margin: auto;
+    margin-top: 163px;
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 127.47%;
+    letter-spacing: -0.5px;
+    color: #004583;
+    text-decoration: none;
+    border-radius: 2px;
+  }
+}
